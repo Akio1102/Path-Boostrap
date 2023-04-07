@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body class="body">
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top header1">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggler"
+          aria-controls="navbarToggler"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul
+            class="navbar-nav d-flex justify-content-lg-center ms-sm-auto text-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">IDE/Editor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Languaje</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--HOLA MUNDO -->
+    <div class="container-fluid my-5" id="home">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-12 col-md-6 p-0 p-lg-5">
+          <div class="container-fluid p-sm-5 text-white">
+            <h1 class="display-1">Columns with stretched link</h1>
+            <p class="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              accusantium praesentium quos? Corporis, doloribus hic. Id magnam
+              eveniet aspernatur velit iure doloremque placeat illo, ullam in
+              quos quisquam maiores a.
+            </p>
+            <a href="#" class="">Go somewhere</a>
+          </div>
+        </div>
+        <div class="col-md-4 d-none d-md-flex align-content-center">
+          <div class="container-fluid align-self-center">
+            <img src="./image/a.png" class="img-fluid" alt="Error en la foto" />
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <!--Languague-->
+    <div class="container-fluid py-sm-0 my-sm-5">
+      <div class="row mx-auto">
+        <div class="col-sm-12 p-sm-0 p-md-5 text-white">
+          <h1 class="display-1">Lenguajes De Programación</h1>
+          <div class="row g-3 px-auto my-2">
+            <div class="col-sm-6 col-md-6 col-xl-4">
+              <div
+                class="card bg-transparent shadow-lg p-3 mb-5 bg-body rounded text-center"
+              >
+                <div class="card-body">
+                  <h5 class="card-title fs-2 fw-bolder">JavaScript (JS)</h5>
+                  <p class="card-text fs-5 py-3">
+                    JavaScript es un lenguaje de programación que se utiliza
+                    principalmente para crear contenido interactivo en sitios
+                    web, desde animaciones y efectos visuales hasta formularios
+                    y aplicaciones web complejas. También se utiliza para
+                    desarrollar aplicaciones móviles, extensiones de navegador y
+                    software de servidor. Además. En resumen, JS es un lenguaje
+                    de programación versátil y esencial en el desarrollo web y
+                    de software en la actualidad.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-info fs-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#JsModal"
+                  >
+                    Historia
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-xl-4">
+              <div
+                class="card bg-transparent shadow-lg p-3 mb-5 bg-body rounded text-center"
+              >
+                <div class="card-body">
+                  <h5 class="card-title fs-2 fw-bolder">Python (PY)</h5>
+                  <p class="card-text fs-5 py-3">
+                    Python es un lenguaje de programación interpretado
+                    multiparadigma y de alto nivel. Se caracteriza por su
+                    sintaxis sencilla y legible, Es utilizado en una gran
+                    variedad de aplicaciones, incluyendo ciencia de datos,
+                    inteligencia artificial, desarrollo web y scripting. Cuenta
+                    con una gran cantidad de bibliotecas y frameworks que
+                    facilitan el desarrollo de aplicaciones. Además, es de
+                    código abierto y multiplataforma, lo que lo hace muy
+                    accesible.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-info fs-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#PyModal"
+                  >
+                    Historia
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div
+                class="card bg-transparent shadow-lg p-3 mb-5 bg-body rounded"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    Launch demo modal
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div
+                class="card bg-transparent shadow-lg p-3 mb-5 bg-body rounded"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    Launch demo modal
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div
+                class="card bg-transparent shadow-lg p-3 mb-5 bg-body rounded"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    Launch demo modal
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div
+                class="card bg-transparent shadow-lg p-3 mb-5 bg-body rounded"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    Launch demo modal
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--IDES/Editor-->
+    <div class="container-fluid py-sm-0 my-sm-5">
+      <div class="row mx-auto">
+        <div class="col-sm-12 p-sm-0 p-md-5 text-white">
+          <!-- <div class="container-fluid "> -->
+          <h1 class="display-1">Lenguajes De Programación</h1>
+          <div class="row g-3 px-auto my-2">
+            <div class="col-sm-6 col-md-4">
+              <div
+                class="card bg-transparent shadow-lg p-3 mb-5 bg-body rounded"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    Launch demo modal
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div
+                class="card bg-transparent shadow-lg p-3 mb-5 bg-body rounded"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Launch demo modal
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div
+                class="card bg-transparent shadow-lg p-3 mb-5 bg-body rounded"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Launch demo modal
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div
+                class="card bg-transparent shadow-lg p-3 mb-5 bg-body rounded"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Launch demo modal
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div
+                class="card bg-transparent shadow-lg p-3 mb-5 bg-body rounded"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Launch demo modal
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div
+                class="card bg-transparent shadow-lg p-3 mb-5 bg-body rounded"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Launch demo modal
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-md-4 d-none d-md-flex align-content-center p-5">
+          <div class="container-fluid p-5">
+            <img src="./image/first.png" class="img-fluid m-5" alt="..." />
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <!--Programming Path-->
+    <div class="container-fluid mt-3 mt-sm-0">
+      <div class="row gx-3">
+        <div class="col-sm-4">
+          <div class="list-group list-group-flush bg-danger text-center">
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              aria-current="true"
+            >
+              The current link item
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              >A second link item</a
+            >
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              >A third link item</a
+            >
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              >A fourth link item</a
+            >
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              >A fourth link item</a
+            >
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="list-group list-group-flush bg-danger text-center">
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              aria-current="true"
+            >
+              The current link item
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              >A second link item</a
+            >
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              >A third link item</a
+            >
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              >A fourth link item</a
+            >
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              >A fourth link item</a
+            >
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="list-group list-group-flush bg-danger text-center">
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              aria-current="true"
+            >
+              The current link item
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              >A second link item</a
+            >
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              >A third link item</a
+            >
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              >A fourth link item</a
+            >
+            <a
+              href="#"
+              class="list-group-item list-group-item-action bg-transparent"
+              >A fourth link item</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Modal JS-->
+    <div
+      class="modal fade"
+      id="JsModal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="js"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title ms-auto fs-2 text-info" id="js">
+              Historia de Javascript (JS)
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body fs-5 text-center">
+            <p>
+              JavaScript
+              <a
+                title="Documentación Oficial"
+                class="link-info text-decoration-none"
+                href="https://developer.mozilla.org/es/docs/Web/JavaScript"
+                target="_blank"
+                >(JS)</a
+              >
+              fue creado por
+              <a
+                title="Infografia"
+                class="link-info text-decoration-none"
+                href="https://es.wikipedia.org/wiki/Brendan_Eich"
+                target="_blank"
+                >Brendan Eich</a
+              >
+              en 1995 mientras trabajaba en
+              <a
+                title="Historia Guerra de Navegadores"
+                class="link-info text-decoration-none"
+                href="https://www.xataka.com/historia-tecnologica/que-fue-netscape-primer-gran-perdedor-guerra-buscadores-que-sento-bases-firefox"
+                target="_blank"
+                >Netscape Communications Corporation.</a
+              >
+              La idea inicial era crear un lenguaje de programación para
+              aplicaciones web que pudiera ser utilizado por los diseñadores web
+              sin necesidad de ser programadores experimentados.
+            </p>
+            <p>
+              El lenguaje originalmente se llamaba Mocha, pero posteriormente
+              fue renombrado como LiveScript, y finalmente a JavaScript. El
+              cambio de nombre a JavaScript se hizo por razones de marketing, ya
+              que en aquel momento el lenguaje Java estaba ganando popularidad y
+              se consideró que el nuevo nombre podría ayudar a la aceptación del
+              lenguaje.
+            </p>
+            <p>
+              La primera versión de JavaScript fue implementada en Netscape
+              Navigator 2.0 en septiembre de 1995. En ese momento, el lenguaje
+              fue visto como una adición útil pero no esencial a los sitios web.
+              Sin embargo, rápidamente se convirtió en una herramienta
+              indispensable para la creación de sitios web dinámicos e
+              interactivos.
+            </p>
+            <p>
+              En los años siguientes, Microsoft creó su propia versión de
+              JavaScript llamada JScript, y el lenguaje fue adoptado por otros
+              navegadores web como Opera y Safari. En 1997, se formó el comité
+              <a
+                title="Pagina de ECMA"
+                class="link-info text-decoration-none"
+                href="https://www.ecma-international.org/"
+                target="_blank"
+                >ECMA (European Computer Manufacturers Association).</a
+              >
+              para estandarizar el lenguaje, y la especificación resultante se
+              llamó
+              <a
+                title="Versiones de ECMAScript"
+                class="link-info text-decoration-none"
+                href="https://lenguajejs.com/javascript/introduccion/ecmascript/"
+                target="_blank"
+                >ECMAScript.</a
+              >
+            </p>
+            <p>
+              Desde entonces, han aparecido muchas nuevas versiones de
+              ECMAScript, cada una con nuevas funcionalidades y mejoras. La
+              versión más reciente es ECMAScript 2022, que fue aprobada en junio
+              de 2021.
+            </p>
+            <p>
+              En la actualidad, JavaScript se utiliza para una amplia variedad
+              de aplicaciones, desde la creación de sitios web y aplicaciones
+              móviles hasta la programación de servidores y el desarrollo de
+              inteligencia artificial y aprendizaje automático.
+            </p>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <a
+              type="button"
+              class="btn btn-info fs-5 text-light"
+              title="Video Historia De JS"
+              href="https://www.youtube.com/watch?v=ZGB_hQiI4ac"
+              target="_blank"
+            >
+              Video Historia De JS
+            </a>
+
+            <button
+              type="button"
+              class="btn btn-danger fs-5"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal Py-->
+    <div
+      class="modal fade"
+      id="PyModal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="py"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title ms-auto fs-2 text-info" id="py">
+              Historia de Python (Py)
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body fs-5 text-center">
+            <p>
+              Python fue creado por
+              <a
+                title="Infografia"
+                class="link-info text-decoration-none"
+                href="https://es.wikipedia.org/wiki/Guido_van_Rossum"
+                target="_blank"
+                >Guido van Rossum</a
+              >
+              1989 mientras trabajaba en el Centro de Matemáticas y Informática
+              de los Países Bajos (CWI). Su objetivo era crear un lenguaje de
+              programación fácil de aprender y que pudiera utilizarse para una
+              amplia variedad de tareas, desde scripting hasta programación de
+              sistemas. Van Rossum se inspiró en lenguajes como
+              <a
+                title="Lenguaje ABC"
+                class="link-info text-decoration-none"
+                href="https://es.wikipedia.org/wiki/ABC_(lenguaje_de_programación)"
+                target="_blank"
+                >ABC</a
+              >,
+              <a
+                title="Lenguaje Modula-3"
+                class="link-info text-decoration-none"
+                href="https://es.wikipedia.org/wiki/Modula-3#:~:text=Modula-3%20es%20un%20lenguaje,el%20sucesor%20de%20Modula-2.&text=Las%20principales%20características%20del%20lenguaje,lenguajes%20de%20programación%20de%20sistemas."
+                target="_blank"
+                >Modula-3</a
+              >
+              y
+              <a
+                title="Lenguaje Shell"
+                class="link-info text-decoration-none"
+                href="https://es.wikipedia.org/wiki/Shell_de_Unix"
+                target="_blank"
+                >Unix shell</a
+              >
+              scripting para diseñar Python
+            </p>
+            <p>
+              Python fue lanzado públicamente en 1991, y desde entonces ha
+              experimentado un crecimiento y una adopción significativos. En
+              1994, se fundó la
+              <a
+                title="Python Software Foundation"
+                class="link-info text-decoration-none"
+                href="https://www.python.org/psf-landing/"
+                target="_blank"
+                >Python Software Foundation</a
+              >
+              para fomentar el desarrollo del lenguaje y apoyar a la comunidad
+              de usuarios. Python ha evolucionado constantemente desde su
+              creación, con nuevas versiones y mejoras que se han ido añadiendo
+              a lo largo de los años.
+            </p>
+            <p>
+              Hoy en día, Python es uno de los lenguajes de programación más
+              populares del mundo, utilizado en una amplia variedad de áreas,
+              como ciencia de datos, inteligencia artificial, desarrollo web,
+              automatización de tareas, videojuegos, y mucho más. Su popularidad
+              se debe en gran parte a su facilidad de uso, claridad de sintaxis
+              y a la gran cantidad de bibliotecas y herramientas disponibles
+              para su uso.
+            </p>
+            <div class="container-fluid">
+              <ol class="row g-3">
+                <li>
+                  <a
+                    title="Documentación Django"
+                    class="link-info text-decoration-none"
+                    href="https://www.djangoproject.com/"
+                    target="_blank"
+                    >Django</a
+                  >: es un framework para desarrollo web que permite crear
+                  aplicaciones web de manera rápida y eficiente. Está diseñado
+                  para seguir el patrón de arquitectura Modelo-Vista-Controlador
+                  (MVC).
+                  <a
+                    type="button"
+                    class="btn btn-outline-info"
+                    title="¿Qué es Django?"
+                    href="https://www.youtube.com/shorts/Rq0JjzPFteY"
+                    target="_blank"
+                  >
+                    ¿Qué es Django?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    title="Documentación Flask"
+                    class="link-info text-decoration-none"
+                    href="https://flask.palletsprojects.com/en/2.2.x/"
+                    target="_blank"
+                    >Flask</a
+                  >: es un framework para desarrollo web minimalista que ofrece
+                  flexibilidad y sencillez. Es ideal para proyectos pequeños o
+                  medianos que no requieran una gran cantidad de
+                  funcionalidades.
+                  <a
+                    type="button"
+                    class="btn btn-outline-info"
+                    title="¿Qué es Flask?"
+                    href="https://www.youtube.com/watch?v=XEXnsFWgloo"
+                    target="_blank"
+                  >
+                    ¿Qué es Flask?
+                  </a>
+                </li>
+                <li>
+                  PyTorch: es un framework de aprendizaje profundo (deep
+                  learning) que permite crear modelos de redes neuronales para
+                  procesamiento de imágenes, texto y otros tipos de datos.
+                </li>
+                <li>
+                  NumPy: es una biblioteca de Python para computación numérica
+                  que facilita el trabajo con arrays y matrices.
+                </li>
+                <li>
+                  Pandas: es una biblioteca de Python para análisis de datos que
+                  permite manipular y analizar grandes cantidades de datos de
+                  manera eficiente.
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <a
+              type="button"
+              class="btn btn-info fs-5 text-light"
+              title="Video Historia De Python"
+              href="https://www.youtube.com/watch?v=zRjbwI4K7xc"
+              target="_blank"
+            >
+              Video Historia De Python
+            </a>
+
+            <button
+              type="button"
+              class="btn btn-danger fs-5"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
